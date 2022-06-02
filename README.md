@@ -1,5 +1,5 @@
 # todo-api
-Simple todo API to try out REST-APIs with node.js and express.js
+Simple todo API to try out REST-APIs with node.js and express.js.
 
 Nothing fancy yet. Definitely not ready for production! ;-)
 
@@ -11,8 +11,7 @@ POST   /api/v1/todos              # create new todo
 PATCH  /api/v1/todos/:todoId      # update todo
 DELETE /api/v1/todos/:todoId      # delete todo
 ```
-
-Future improvements
+## Future improvements
 * prevent overwrite of other fields in DB, e.g. createdAt
 * improve authentification/authorization (API key, OpenID)
 * add support for different databases (lowdb, S3, Postgres)
